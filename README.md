@@ -835,9 +835,9 @@ http://api.my-post-service.kro.kr
 
 ### ⬇️ 다운로드 url 발급
 
-| Method | Endpoint                | 인증    | 권한 조건    |
-|--------|-------------------------|-------|----------|
-| POST   | /v2/files/download-urls | 🔒 필요 | 로그인한 사용자 |
+| Method | Endpoint                         | 인증    | 권한 조건    |
+|--------|----------------------------------|-------|----------|
+| POST   | /v2/files/{fileId}/download-urls | 🔒 필요 | 로그인한 사용자 |
 
 #### 📸 Postman 예시 화면
 ![🗑️ 다운로드 url 발급 API](./images/다운로드_url_발급.png)
